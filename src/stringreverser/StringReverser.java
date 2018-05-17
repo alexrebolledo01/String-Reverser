@@ -12,6 +12,11 @@ package stringreverser;
  */
 public class StringReverser {
     
+    /**
+     * Reverses any String object using a StringBuilder.
+     * @param word
+     * @return 
+     */
     public StringBuilder reverseString(String word) {
         
         StringBuilder reverseBuilder = new StringBuilder();
